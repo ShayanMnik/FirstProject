@@ -1,0 +1,85 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.header{
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1200px;
+}
+.container{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.store-conitainer{
+    width: 1000px !important;
+}
+.first-main-dis{
+    width: 100%;
+    font-size: 0.8rem;
+}
+.iphone-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    width: inherit;
+}
+.home-img{
+    width: inherit;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 25px;
+}
+.buybtn:hover {
+    background-color: rgb(56, 55, 55);
+    color: aqua;
+}
+.aboutimg{
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.navbtn{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+.signup-link{
+    color: black;
+}
+.navbtn:hover .signup-link{
+    color: white;
+    text-decoration: none;
+}
+.navbtn:hover{
+    background-color: black;
+    border: 3px solid white;
+}
